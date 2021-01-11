@@ -1,10 +1,64 @@
 * {
-    font-style: "arial, sans-serif";
+    box-sizing: border-box;
+    font-family: "sans-serif";
     font-size: 16px;
     margin: 0;
     padding: 0;
+    color: #000000;
 }
 
-#profilePicture {
+
+/* Link styles */
+
+body a {
+    text-decoration: none;
+    border: 1px white solid;
+}
+
+body a:hover {
+    border-bottom: 1px solid #333333;
+}
+
+#github_link:hover {
+    border: none;
+}
+
+
+/* Navigation Bar Styles */
+
+#navbar {
+    margin-top: 15px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navbar * {
+    margin: 0 20px 0 20px;
+}
+
+#profile_picture {
     border-radius: 50%;
+}
+
+
+/* Main Section Styles */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+main * {
+    display: block;
+}
+
+
+/* Footer Styles */
+
+footer * {
+    color: #eee;
 }
