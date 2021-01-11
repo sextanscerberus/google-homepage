@@ -1,0 +1,1 @@
+A very simple copy of the Google main page. I'm thinking to use a little bit of flexbox or CSS Grid. Maybe.
