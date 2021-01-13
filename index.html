@@ -2,37 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./google_icon.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./google_icon.png" />
     <title>Google</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 </head>
 
 <body>
     <nav id="navbar">
         <a href="#">Gmail</a>
         <a href="#">Images</a>
-        <i></i>
-        <a href="https://github.com/sextanscerberus" id="github-link"><img src="./profile_picture.jpg" alt="Profile Picture" id="profile-picture"></a>
+        <img src="./apps.png" alt="Applications icon" id="apps" />
+        <a href="https://github.com/sextanscerberus" id="github-link"><img src="./profile_picture.jpg" alt="Profile Picture" id="profile-picture" /></a>
     </nav>
     <main>
-        <img src="./google_logo.png" alt="Google Logo">
-        <form>
-            <input type="text" autofocus>
-            <input type="button" name="Google Search" value="Google Search">
-            <input type="button" name="I'm Feeling Lucky" value="I'm Feeling Lucky">
+        <img src="./google_logo.png" alt="Google Logo" id="logo" />
+        <form id="form">
+            <div id="search-section">
+                <div id="search-bttn">
+                    <img src="./search_button.png" alt="Search Button" />
+                </div>
+                <div id="input">
+                    <input type="text" autofocus id="search-bar" />
+                </div>
+                <div id="mic-button">
+                    <img src="./mic.png" alt="Microphone Button" />
+                </div>
+            </div>
+            <div>
+                <input type="button" name="Google Search" value="Google Search" class="bttn" />
+                <input type="button" name="I'm Feeling Lucky" value="I'm Feeling Lucky" class="bttn" />
+            </div>
         </form>
     </main>
     <footer>
-        <a href="#" class="footer-link">Advertising</a>
-        <a href="#" class="footer-link">Bussiness</a>
-        <a href="#" class="footer-link">About</a>
-        <a href="#" class="footer-link">How Search works</a>
+        <div id="left-side-footer">
+            <ul>
+                <li><a href="#" class="footer-link">Advertising</a></li>
+                <li><a href="#" class="footer-link">Bussiness</a></li>
+                <li><a href="#" class="footer-link">About</a></li>
+                <li>
+                    <a href="#" class="footer-link">How Search works</a>
+                </li>
+            </ul>
+        </div>
         <div id="right-side-footer">
-            <a href="#" class="footer-link">Privacy</a>
-            <a href="#" class="footer-link">Terms</a>
-            <a href="#" class="footer-link">Settings</a>
+            <ul>
+                <li><a href="#" class="footer-link">Privacy</a></li>
+                <li><a href="#" class="footer-link">Terms</a></li>
+                <li><a href="#" class="footer-link">Settings</a></li>
+            </ul>
         </div>
     </footer>
 </body>
